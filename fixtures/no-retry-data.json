@@ -1,0 +1,5 @@
+{
+  "config":{"rootDir":"/example"},
+  "suites":[{"title":"tests/checkout.spec.ts","specs":[{"title":"saves an order","file":"tests/checkout.spec.ts","tests":[{"projectId":"chromium","projectName":"Chromium","status":"flaky","expectedStatus":"passed","results":[{"status":"failed"},{"status":"passed"}]}]}]}],
+  "errors":[],"stats":{"startTime":"2026-11-19T12:00:00Z","duration":310,"expected":0,"unexpected":0,"flaky":1,"skipped":0}
+}

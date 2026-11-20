@@ -1,0 +1,10 @@
+{
+  "config": {"rootDir": "/example", "projects": [{"id":"chromium","name":"Chromium","retries":1},{"id":"firefox","name":"Firefox","retries":1}]},
+  "suites": [{"title":"tests/checkout.spec.ts","file":"tests/checkout.spec.ts","specs":[],"suites":[{
+    "title":"checkout", "file":"tests/checkout.spec.ts", "specs":[{"title":"saves an order","file":"tests/checkout.spec.ts","line":7,"tests":[
+      {"projectId":"chromium","projectName":"Chromium","expectedStatus":"passed","status":"flaky","results":[{"retry":0,"status":"failed","duration":221},{"retry":1,"status":"passed","duration":103}]},
+      {"projectId":"firefox","projectName":"Firefox","expectedStatus":"passed","status":"expected","results":[{"retry":0,"status":"passed","duration":118}]}
+    ]}], "suites":[]
+  }]}],
+  "errors":[], "stats":{"startTime":"2026-11-18T12:00:00Z","duration":509,"expected":1,"unexpected":0,"flaky":1,"skipped":0}
+}

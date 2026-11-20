@@ -1,0 +1,13 @@
+{
+  "config": {"rootDir":"/example","projects":[{"id":"chromium","name":"Chromium","retries":1},{"id":"firefox","name":"Firefox","retries":1}]},
+  "suites":[{"title":"tests/checkout.spec.ts","file":"tests/checkout.spec.ts","specs":[],"suites":[{"title":"checkout","file":"tests/checkout.spec.ts","specs":[
+    {"title":"saves an order","file":"tests/checkout.spec.ts","line":9,"tests":[
+      {"projectId":"chromium","projectName":"Chromium","status":"expected","expectedStatus":"passed","results":[{"retry":0,"status":"passed","duration":102}]},
+      {"projectId":"firefox","projectName":"Firefox","status":"unexpected","expectedStatus":"passed","results":[{"retry":0,"status":"timedOut","duration":1000},{"retry":1,"status":"failed","duration":455}]}
+    ]},
+    {"title":"shows a receipt","file":"tests/checkout.spec.ts","line":14,"tests":[
+      {"projectId":"chromium","projectName":"Chromium","status":"unexpected","expectedStatus":"passed","results":[{"retry":0,"status":"failed","duration":411},{"retry":1,"status":"failed","duration":387}]}
+    ]}
+  ]}]}],
+  "errors":[],"stats":{"startTime":"2026-11-19T12:00:00Z","duration":2387,"expected":1,"unexpected":2,"flaky":0,"skipped":0}
+}
