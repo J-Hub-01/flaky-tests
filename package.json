@@ -1,5 +1,5 @@
 {
-  "name": "flaky-tests",
+  "name": "flaky-test",
   "version": "1.0.0",
   "description": "Read saved Playwright reports and show which tests passed only after a retry.",
   "type": "module",
@@ -7,7 +7,7 @@
   "files": ["bin/", "fixtures/"],
   "engines": { "node": ">=22" },
   "license": "MIT",
-  "author": "Your Full Name",
+  "author": "Jay Santosh Sawant",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/J-Hub-01/flaky-tests.git"
