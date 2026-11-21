@@ -1,11 +1,18 @@
 {
   "name": "flaky-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read saved Playwright reports and show which tests passed only after a retry.",
   "type": "module",
-  "bin": { "flaky-tests": "bin/flaky-tests.js" },
-  "files": ["bin/", "fixtures/"],
-  "engines": { "node": ">=22" },
+  "bin": {
+    "flaky-tests": "bin/flaky-tests.js"
+  },
+  "files": [
+    "bin/",
+    "fixtures/"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
   "license": "MIT",
   "author": "Jay Santosh Sawant",
   "repository": {
@@ -13,7 +20,12 @@
     "url": "git+https://github.com/J-Hub-01/flaky-tests.git"
   },
   "homepage": "https://github.com/J-Hub-01/flaky-tests#readme",
-  "keywords": ["playwright", "flaky-tests", "test-reports", "cli"],
+  "keywords": [
+    "playwright",
+    "flaky-tests",
+    "test-reports",
+    "cli"
+  ],
   "scripts": {
     "build": "node --check bin/flaky-tests.js",
     "test": "node --test"
