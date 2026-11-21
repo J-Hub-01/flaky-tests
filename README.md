@@ -34,7 +34,7 @@ npx playwright test --retries=1 --reporter=json > results.json
 flaky-tests results.json
 ```
 
-To make `flaky-tests` available before publication, run `npm install -g .` from this repository, or use `node bin/flaky-tests.js` from this folder. **After publication**, you can use `npx flaky-tests results.json` without a global install. The first `npx` run may fetch the command; the installed command itself does not use the network.
+To make `flaky-tests` available before publication, run `npm install -g .` from this repository, or use `node bin/flaky-tests.js` from this folder. **After publication**, you can use `npx flaky-test results.json` without a global install. The first `npx` run may fetch the command; the installed command itself does not use the network.
 
 You can pass more than one file:
 
