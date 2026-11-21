@@ -1,6 +1,6 @@
 {
   "name": "flaky-test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Read saved Playwright reports and show which tests passed only after a retry.",
   "type": "module",
   "bin": {
